@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    display: flex;
+  }
+  
+  .left{
+  width: 30vw;
+  height: 100vh;
+  }
+  
+  .right{
+    width: 70vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    justify-self: end;
+    border-radius: 2rem;
+  }
+  
